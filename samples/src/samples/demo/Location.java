@@ -4,7 +4,7 @@ public class Location {
 	
 	private String name;
 	private int age;
-	private int year;
+	
 	private String address;
 	private String fatherName;
 	private String motherName;
@@ -22,12 +22,7 @@ public class Location {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	public int getYear() {
-		return year;
-	}
-	public void setYear(int year) {
-		this.year = year;
-	}
+
 	public String getAddress() {
 		return address;
 	}
@@ -46,7 +41,5 @@ public class Location {
 	public void setMotherName(String motherName) {
 		this.motherName = motherName;
 	}
-	
-	
 
 }
